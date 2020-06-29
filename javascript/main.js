@@ -19,4 +19,4 @@ for (var i =0,num =pp.length;i<num;i++){
 	// console.log(p[i].textContent);
 	collect+=pp[i].textContent+"\n\n";
 }
-alert(collect)
+alert(collect);
