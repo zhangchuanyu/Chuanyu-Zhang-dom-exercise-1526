@@ -13,5 +13,11 @@ alert(collect);
 let t2 = document.querySelectorAll(".box");
 
 collect=t2[13].querySelector("h2").textContent+"\n ------------------"+"\n" ;
-collect+=t2[13].querySelector("p").textContent;
+let pp= t2[13].querySelectorAll("p");
+for (var i =0,num =pp.length;i<num;i++){
+	// console.log("hi");
+	// console.log(p[i].textContent);
+	collect+="\n"+pp[i].textContent;
+}
+
 alert(collect)
